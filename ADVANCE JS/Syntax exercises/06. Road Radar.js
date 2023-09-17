@@ -1,7 +1,6 @@
 function roadRadar(speed, area) {
     let status;
     switch (area) {
-        
         case "city":
     if (speed > 50) {
         let difference = speed - 50;

@@ -11,7 +11,7 @@ function validCheker(x1, y1, x2, y2){
     console.log(`{${x2}, ${y2}} to {0, 0} is ${isValid2 ? "valid" : "invalid"}`);
     console.log(`{${x1}, ${y1}} to {${x2}, ${y2}} is ${isValid3 ? "valid" : "invalid"}`);
     
-    //(x2 - x1)(x2 - x1) + (y2 - y1)(y2-y1)
+    //koren kwadrat ot(x2 - x1)(x2 - x1) + (y2 - y1)(y2-y1)
 
 }
 
