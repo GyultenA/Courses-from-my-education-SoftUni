@@ -1,0 +1,51 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+    padding: 1em 1em;
+    margin: 1em 1em;
+}
+
+body {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: 0.25em solid rgb(221,221,221);
+    font-style: italic;
+    padding-left: 1em;
+   
+}
+
+blockquote p:first-of-type + p + p{
+  text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: lightgray;
+   /* border: 0.15em solid gray;*/
+}
+
+th,td {
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 0px;
+}
+
+th {
+    background-color:gray;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #fff;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(206, 201, 201);
+}
