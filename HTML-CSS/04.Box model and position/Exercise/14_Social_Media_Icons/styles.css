@@ -1,0 +1,49 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+ul {
+    display: inline-block;
+    text-decoration: none;
+    margin: 4em;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    border-radius: 50%;
+    padding: 12.6px 27px;
+}
+
+i {
+    font-size: 100px;
+    display: inline-block;
+    /*fill: #fff;*/
+    cursor: pointer;
+}
+
+.blue::before{
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+i:hover::before {
+    opacity: 0;
+    
+}
+
+.blue {
+    fill: lightblue;
+   /* cursor: pointer;*/
+    transition: opacity 0.3s ease-in;
+}
+
+.blue i:hover {
+    fill: aquamarine;
+    transition: fill 0.3s ease-in;
+}
+
+.blue:hover i {
+    opacity: 1;
+}

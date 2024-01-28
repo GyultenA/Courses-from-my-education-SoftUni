@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 1em/1.2  serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238) ;
+    font: inherit;
+}
+
+header {
+    
+    position: relative;
+    
+}
+h1, h2, h3 {
+    height: 1.5em;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 5px 20px;
+   
+}
+
+
+header ul {
+    position: absolute;
+    top:0%;
+    right: 0%;
+
+}
+
+body {
+    margin: 20px 40px;
+}
+
+hr {
+    border: 2px solid;
+    margin: 1rem 0;
+}
+h2 {
+    margin-top: 1em;
+}
+
+article {
+    width: 75%;
+    display: inline-block;
+    margin: 0 1rem 0 0;
+}
+
+aside {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+h3 {
+    margin: 0 0 1rem 0;
+}
+aside ul {
+    margin-bottom: 1rem;
+}
+
+aside ul li {
+    list-style-type: square;
+    margin: 0 0 0 1rem ;
+}
+
+article section {
+    margin-top: 3rem;
+}
+
+.first_img {
+    float: right;
+    margin: 1rem;
+    border: 5px solid #eee;
+    outline: 2px solid #100909;
+
+}
+
+.second_img {
+    float: left;
+    margin: 1rem 1rem 1rem 0;
+    border: 5px solid #eee;
+    outline: 2px solid #100909;
+
+}
+
+blockquote {
+   max-width: 50%;
+   float: right;
+    text-align: left;
+    padding-left: 1rem;
+    font-style: italic;
+    border-left: 1px solid #554d4d;
+}
+
+
+.autor {
+    display: block;
+    text-align: right;
+}

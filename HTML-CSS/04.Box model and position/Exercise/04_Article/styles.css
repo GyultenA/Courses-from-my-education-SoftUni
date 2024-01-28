@@ -1,0 +1,46 @@
+main {
+    height: 140px;
+    width: 900px;
+}
+
+img {
+    border-right: 1px solid#d1d1d1;
+    float: left;
+    margin-right: 19px;
+    padding-right: 19px;
+}
+
+/*img.align-left {
+    border: solid #d1d1d1;
+    border-width: 0 1px 1px 0;
+    float: left;
+    margin:  0 1em 1em 0;
+    padding: 0 1em 1em 0;
+}*/
+
+/*img.align-right {
+     border: solid #d1d1d1;
+    border-width: 0  0 1px 1px;
+    float: right;
+    margin:  0  0 1em 1em;
+    padding: 0  0 1em 1em;*/
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #2e2e2e;
+    text-align: justify;
+}
+
+
+/* •	<img>:
+o	Solid right border with size 1px and color #d1d1d1
+o	Float the images on the left
+o	Right margin: 19px
+o	Right padding: 19px
+•	<p>:
+o	Font size: 20px
+o	Height of the line: 30px
+o	Text color: #2e2e2e
+o	Text align: justify
+ */
