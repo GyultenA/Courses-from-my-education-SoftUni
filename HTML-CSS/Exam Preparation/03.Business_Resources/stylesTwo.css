@@ -1,0 +1,50 @@
+
+
+.site-section.columns {
+    border-bottom: 3px solid #858282;
+    background: #fff;
+}
+
+/*ima razlika- ne se razpyva do kray*/
+/*.site-section.columns .container {
+    border-bottom: 2px solid #eee;
+}*/
+
+.site-section.partners, .site-section.sponsors {
+    background: #fff;
+    text-align: center;
+}
+
+.site-section.partners h2, .site-section.sponsors h2 {
+    color: rgb(235, 180, 79);
+}
+
+.column-container {
+    display: flex;
+    gap: 2em;
+}
+
+.site-footer {
+    background: #000;
+    color: white
+}
+
+.site-footer:last-child {
+    border-top: 2px solid #949090;
+}
+
+.columns-container {
+display: flex;
+gap: 2em;
+justify-content: space-between;
+/*align-items: center;*/
+}
+
+.column ul li {
+
+    list-style: none;
+}
+
+.column h4 {
+    padding-bottom: 1em;
+}

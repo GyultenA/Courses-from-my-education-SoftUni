@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+html{
+    font: 0.8em/1.5 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+h1,h2,h3,h4,h5,h6,
+[class*="title"]{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
+h1 {font-size: 1.6em; font-weight: 900;}
+h2 {font-size: 1.5em; font-weight: 800;}
+h3 {font-size: 1.4em; font-weight: 700;}
+h4 {font-size: 1.2em; font-weight: 600;}
+h5 {font-size: 1em;}
+h6 {font-size: 0.8em;}
+
+body{
+    margin: 1em 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+hr{
+    width: 75px;
+    height: 2px;
+    background-color: black;
+    border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.button{
+    padding: 0.5em 0.6em;
+    border: 2px solid black;
+    font-family: inherit ;
+    font-size: 0.7em;
+    font-weight: 600;
+    border-radius: 0.3em;
+
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3) ;
+    background-color: #fff;
+}
+
+#nav-toggle{
+    opacity: 0;
+}

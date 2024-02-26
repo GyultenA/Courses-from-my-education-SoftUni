@@ -1,0 +1,42 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    width: 125px;
+}
+
+.badge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.badge .name{
+    font-weight: 800;
+}
+
+.badge .position{
+    opacity: 0.7;
+}
+
+.description{
+    text-align: center;
+    font-style: italic;
+}
+
+.card .media{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    outline: 4px solid rgba(255, 255, 255, 0.486);
+    outline-offset: -4px;
+}
+  
+.card .media img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+@import url("layout-site.css");
+
+@import url("typography.css");
+/*Font-size – 18px
+Font-size for big title – 90px
+Font-size for other text – 16px
+Karla and Cormorant Infant). */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font:18px/1.5 "Cormorant Infant", sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: "Karla", sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url("images/poster.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;  /*cover, contain, 100%*/
+    background-position: top center;
+   
+   
+}
+
+
+.container {
+    /*max-width: 1200px;*/
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.site-header {
+    padding: 2em;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+.site-header nav {
+    padding-right: 1em;
+}
+
+.site-header nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none outside;
+    padding: 0 0.5em;
+    color: #fff;
+    font-size: 18px;
+}
+
+.site-header nav a {
+    text-decoration: none;
+    color: #fff;   
+}
+
+.site-title a {
+    display: block;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -250vw;
+    background-image: url("images/logo.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 20em;
+}
+
+.site-section.banner {
+    padding-bottom: 12em;
+ }
+
+ .site-footer a {
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 70px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url("images/logo.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ 
+
+
+

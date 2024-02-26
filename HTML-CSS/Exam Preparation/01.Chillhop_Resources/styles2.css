@@ -1,0 +1,24 @@
+article .buttons {
+    justify-content: space-evenly;
+}
+
+article {
+    display: flex;
+    gap: 2em;
+}
+
+article .content {
+    flex: 1 1 auto
+}
+
+article .media {
+    flex: 0 0 290px
+}
+
+article header {
+    padding-bottom: 2em;
+}
+
+article .content {
+    padding-top: 1em;
+}

@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 2rem*/
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+section ul {
+    padding-top: 1em;
+    padding-left: 2em;
+}
+
+section h1 {
+    padding: 1em;
+    margin: 0;
+}
+
+section ul li{
+    list-style: inside;
+    /*padding-top: 0.2em;*/
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3em;
+    color:rgb(158, 135, 221);
+}
+
+header,nav, section,footer {
+    background: lightblue;
+}
+
+/*aside,footer {
+    background-color: lightblue;
+    color: #000;
+}*/
+
+header,footer {
+    flex-basis: 100%;
+}
+
+nav {
+    /*flex: 2 1 0.6rem;*/
+    flex:1 0 calc(30% - 2em)
+}
+
+section {
+   /* flex: 8 1 50rem;*/
+    flex: 1 0 65%;
+}
+
+nav, section {
+    min-height: 200px;
+    flex-direction: column;
+}
+
+footer {
+    padding: 0.5em;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 2em;
+    /*align-items: center;*/
+    /*width: 100%;
+     
+
+}*/
+
+/*.site {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}*/
+
+
+
+/*header {
+    flex-grow: 1;
+    flex-basis: 100%;
+}*/
+
+/*nav {
+    display: flex;
+}*/
+
+/*@media (max-width:500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+header,
+footer {
+    flex: 0 0 100%;
+    display: flex;
+}
+
+nav, section {
+   min-height: 250px;
+   flex-direction: column;
+}
+
+nav a {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 30%;
+}
+
+nav {
+    
+}
+
+section {
+    display: flex;
+    flex: 1 0 calc(65% - 2em);
+}
+
+/*aside {
+    flex: 1 0 35%;
+}*/
+
+

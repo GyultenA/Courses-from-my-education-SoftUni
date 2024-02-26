@@ -1,0 +1,40 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
+.main-nav{
+    display: none;
+}
+
+#nav-toggle:checked + .site .main-nav{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    background-color: rgb(133, 132, 132);
+}
+
+#nav-toggle:checked + .site .main-nav a{
+    border: 1px solid black;
+    width: 100%;
+}
+
+#nav-toggle{
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    
+    header .menu-button{
+        display: none;
+    }
+
+    .main-nav{
+        display: flex;
+        gap: 3em;
+    }
+
+} 

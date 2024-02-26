@@ -1,0 +1,89 @@
+ /* * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }*/
+ html {
+     font-family: Helvetica, sans-serif;
+ }
+
+ body {
+     font-family: inherit;
+ }
+
+ body {
+     background: rgb(238, 238, 238);
+     padding: 2em;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+ }
+
+ img {
+     display: block;
+     width: 100%;
+     height: auto;
+ }
+
+ h2 {
+     font-family: Georgia, serif;
+     font-size: 1.5em;
+     line-height: 1.2;
+     padding-left: 0.4em;
+ }
+  p {
+    padding: 0.6em;
+  }
+
+ a {
+     color: #fff;
+     text-decoration: none;
+ }
+
+ .card {
+    background-color: rgb(255, 255, 255);
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 0.4em;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+}
+
+section {
+    border-radius: 0.5em;
+ }
+
+ button {
+     display: inline-block;
+     background: rgb(0, 153, 0);
+     color: #fff;
+     padding: 0.5em 0.8em;
+     border-radius: 0.3em;
+     float: right;
+     margin-bottom: 2em;
+     margin-right: 2em;
+     border-color: rgb(0, 153, 0);
+ }
+
+ button:hover  {
+    background: lightgray;
+    color: black;
+ }
+
+ a:hover {
+    background: lightgray;
+    color: black;
+ }
+
+ /*•	Create a section with two div elements
+•	You can access the image here
+•	Use rgb(238, 238, 238) for body background
+•	Use rgb(255, 255, 255) for card background
+•	Use rgb(0, 153, 0) for card button background
+•	Use font Georgia, serif with size 1em/1.2 for the headings
+•	Use font Helvetica, sans-serif for the document*/

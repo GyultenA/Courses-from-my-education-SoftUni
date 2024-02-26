@@ -1,0 +1,26 @@
+.need-a-website{
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.need-a-website .message{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    flex: 0 1 60%;
+}
+
+.need-a-website .button{
+    align-self: flex-start;
+}
+
+.need-a-website figure
+{
+    flex: 0 1 auto;
+}
+
+.need-a-website svg{
+    width: 125px
+}

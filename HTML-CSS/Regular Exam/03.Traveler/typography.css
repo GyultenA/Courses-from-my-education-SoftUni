@@ -1,0 +1,86 @@
+.site-section.banner h1 {
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+    /* font-weight: normal;*/
+    font-weight: bold;
+    padding-top: 6em;
+    padding-bottom: 2em;
+}
+
+
+.site-section.banner p {
+    font-size: 20px;
+    font-family: "Karla", sans-serif;
+    /*max-width: 39.5rem;*/
+    text-align: center;
+    color: #fff;
+}
+
+.customer h3 {
+    font-size: 80px;
+    line-height: 1;
+    padding-top: 0.6em;
+    font-family: "Klara", serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.customer p:first-of-type {
+    font-size: 18px;
+    font-family: "Klara", sans-serif;
+}
+
+.customer:last-child {
+    font-size: 18px;
+
+}
+
+.support h4 {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Cormorant Infant", sans-serif;
+    padding-bottom: 1em;
+}
+
+.support p {
+    color: #fff;
+}
+
+.card h2 {
+    font-size: 50px;
+    padding-top: 0.4em;
+    font-family: "Cormorant Infant", sans-serif;
+    text-align: center;
+    padding-bottom: 0.4em;
+}
+
+.card p {
+    max-width: 500px;
+    font-size: 18px;
+    padding-bottom: 2em;
+}
+
+.site-section-find .card h2 {
+    color: #fff;
+    font-size: 60px;
+    font-family: "Cormorant Infant";
+}
+
+.site-section-find .card p {
+    padding-top: 2em;
+    color: #fff;
+    min-width: 800px;
+    text-align: center;
+}
+
+
+.site-footer p {
+    color: #fff;
+    line-height: 2;
+}
+
+.site-footer p:last-child {
+    opacity: 0.6;
+}

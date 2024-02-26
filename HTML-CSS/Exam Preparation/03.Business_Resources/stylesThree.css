@@ -1,0 +1,35 @@
+.sponsors {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.sponsors li {
+    list-style: none outside;
+}
+
+.sponsors li {
+    display: block;
+    width: 5em;
+    aspect-ratio: 1/1; 
+    /*vmesto aspect-ration moje i: height: 5em; overflow: hidden;*/
+    background: #eee;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.sponsors li a img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.button {
+    text-decoration: none;
+    padding-top: 1em;
+}
+
+.column-container .column a {
+   padding-top: 1em;
+}

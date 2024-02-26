@@ -1,0 +1,95 @@
+.customer {
+    background: #F8F0E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.site-section.columns {
+    background: #F8F0E9;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+
+.column-container .card img {
+    max-width: 600px;
+    height: auto;
+    display: block;
+}
+
+.card a {
+    text-decoration: none;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    color: #000;
+    font-family: "Klara", sans-serif;
+}
+
+.card .button {
+    border: 0.5px solid #000;
+    background-color: #fff;
+    padding: 0.6em 0.8em;
+    border-radius: 0.3em;
+}
+
+.card .button-first {
+    border: 0.5px solid #000;
+    background-color: #fff;
+    padding: 0.5em 0.8em;
+    border-radius: 0.3em;
+    position: relative;
+    left: -32%;
+    bottom: -100%;
+}
+
+.site-section-find {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E14747;
+    padding-bottom: 2em;
+}
+
+.site-section-find .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card .button-orange {
+    background-color: #FBD87A;
+    border-radius: 0.8em;
+    padding: 0.5em 0.8em;
+}
+
+
+.support {
+    background: #E14747;
+    text-align: center;
+}
+
+
+.site-footer {
+    background: #352B2A;
+    padding-left: 10em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}

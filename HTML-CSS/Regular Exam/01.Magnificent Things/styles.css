@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 "Inter", sans-serif;
+}
+
+body, main, article {
+    font: inherit;
+}
+
+body {
+    background: #85DCFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 3em;
+}
+
+article .content {
+    flex: 0 1 35%;
+}
+
+article .media {
+    flex: 0 0 30%;
+    box-shadow: -0.2em 0.2em 0.5em 0 rgba(0, 0, 0, 0.8);
+    border-radius: 0.3em;
+}
+
+.content h1 {
+    line-height: 1.2;
+    font-size: 60px;
+}
+
+
+article header {
+    padding-bottom: 2em;
+}
+
+article section {
+    padding-bottom: 2em;
+}
+
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.6em 1.5em;
+    border-radius: 0.3em;
+}
+
+.button.primary {
+    color:#000;
+    background:#42AA59;  
+    border: 1px solid #000;
+}
+
+.button.secondary {
+    color: #000;
+    background: #fff;
+}
+
+.button.primary:hover {
+    color: #fff;
+    background: #000;  
+}
+
+.button+.button {
+    margin-left: 1em;
+}

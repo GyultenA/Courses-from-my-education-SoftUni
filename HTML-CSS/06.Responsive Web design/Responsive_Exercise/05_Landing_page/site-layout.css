@@ -1,0 +1,273 @@
+.need {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.5em;
+    padding: 4em 4em;
+}
+
+.need h3 {
+    flex: 1 0 100%;
+    font-size: 1.8em;
+}
+
+.need p {
+    flex: 1 0 50%;
+}
+
+.need span {
+    flex: 1 0 35%;
+}
+
+.need i {
+    font-size: 6em;
+}
+
+@media (max-width:600px) {
+    .need {
+        flex-direction: column;
+    }
+}
+
+/*Our TEAM PART*/
+/*.team {
+    display: flex;
+    justify-content: center;
+    max-width: 50em;
+}*/
+
+.team header h3 {
+    text-align: center;
+    font-size: 1.6em;
+    border-bottom: 1px solid #000;
+}
+
+.team header {
+    padding-bottom: 1em;
+}
+
+.members {
+    /*width: 100%;*/
+    /*max-width: 1100px*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.members .container {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.members .container img {
+    aspect-ratio: 1/1;
+    position: relative;
+    border-radius: 50%;
+}*/
+
+.members .container img {
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+    margin-bottom: 3em;
+
+}
+
+.members .container h2 {
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.members .container h3 {
+    font-size: 0.8em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.members .container p {
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+
+@media (max-width:500px) {
+    .members {
+        flex-direction: column;
+    }
+
+    .members .container {
+        flex: 0 0 15%;
+    }
+}
+
+/*SIGN UP Part*/
+
+.sign-up {
+    /* display: flex;*/
+    /*align-items: center;*/
+    background: purple;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.sign-up h1 {
+    text-align: center;
+}
+
+.sign-up button {
+    display: inline-block;
+}
+
+.sign-up input {
+    display: inline-block;
+    padding-left: 20em;
+    margin-left: 12em;
+}
+
+/*Rewies part*/
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews h3 {
+    flex: 1 0 100%;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.reviews .message {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews .message img {
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+    margin-bottom: 3em;
+
+}
+
+.reviews .message p {
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: center;
+    padding-bottom: 1.2em;
+    /*flex: 0 0 30%;*/
+}
+
+.reviews .message h4 {
+   font-weight: bold;
+}
+
+@media (max-width:500px) {
+  .reviews {
+    flex-direction: column;
+  }
+
+    .reviews .message {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 30%;
+    }
+}
+
+/*FOOTER Part*/
+
+.footer-side {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row;*/
+    justify-content: flex-start;
+    align-items: center;
+    background: #a2a0a0;
+    padding-top: 2em;
+    gap: 3em;
+    padding-bottom: 2em;
+}
+
+footer p:first-of-type {
+    font-size: 2em;
+    font-style: italic;
+}
+
+
+/*.footer-site .head p {
+    font-size: 0.2em;
+    font-style: italic;
+}*/
+
+.footer-site .head h4 {
+    font-size: 0.6em;
+    padding-bottom: 0.5em;
+}
+
+.footer-site .head {
+    display: flex;
+    flex: 0 0 20%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer p:first-of-type {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.footer-site .map {
+    display: flex;
+    flex: 0 0 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-site .map h5 {
+    font-size: 1.5em;
+}
+
+.footer-site .map li {
+    display: inline-block;
+}
+
+.footer-site .contact {
+    flex: 0 0 25%;
+}
+
+.footer-site .contact i {
+    padding-right: 5.40px;
+    font-size: 12px;
+}
+
+.footer-site .contact lii {
+    padding-left: 5.40px;
+    font-size: 12px;
+}

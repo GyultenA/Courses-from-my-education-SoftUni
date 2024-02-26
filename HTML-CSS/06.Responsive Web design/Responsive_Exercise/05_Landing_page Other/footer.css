@@ -1,0 +1,31 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    border-top: 3px solid rgba(182, 173, 173, 0.418);
+    padding-top: 2em;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer .locations{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.5em;
+    height: 8em;
+}
+
+footer .contacts li{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: 600;
+}
+
+footer .contacts li svg{
+    width: 15px;
+}

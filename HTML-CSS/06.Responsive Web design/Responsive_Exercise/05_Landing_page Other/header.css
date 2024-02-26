@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+header svg{
+    width: 0.8em;
+}
+
+.site-title{
+    font-size: 1.9em;
+    font-family: inherit;
+
+    color: rgb(109, 12, 109);
+    margin: 0;
+}
+
+.undertitle{
+    text-transform: uppercase;
+    opacity: 0.7;
+    font-size: 0.5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.menu-button{
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

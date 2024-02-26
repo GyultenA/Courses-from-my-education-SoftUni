@@ -1,0 +1,11 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+main > *:not(.newsletter),
+header,
+footer{
+    padding: 0 2em;
+}
